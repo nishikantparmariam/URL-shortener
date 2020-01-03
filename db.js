@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 const database_name = 'url-shortener';
-const url = 'mongodb+srv://niks:niks@cluster0-fif98.mongodb.net/test?retryWrites=true&w=majority';
+const url = 'mongodb+srv://<>:<>@cluster0-fif98.mongodb.net/test?retryWrites=true&w=majority';
 const mongoOptions = {useNewUrlParser:true, useUnifiedTopology: true};
 
 const state = {
